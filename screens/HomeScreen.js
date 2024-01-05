@@ -41,7 +41,7 @@ const HomeScreen = () => {
 
       <View className="flex-1 relative items-center justify-center">
         <Animatable.Image
-          animation="fadeIn"
+          animation="pulse"
           easing="ease-in-out"
           iterationCount="infinite"
           source={HeroImage}
